@@ -2,12 +2,10 @@
     background-color: gold;
     color: black;
 }
-
 .celaWeb {
     background-color: lightcyan;
     color: black;
 }
-
 .celaProgra {
     background-color: lightblue;
     color: black;
@@ -20,17 +18,14 @@
     background-color: lightskyblue;
     color: black;
 }
-
 .celaTutoria {
     background-color: lightsalmon;
     color: black;
 }
-
 .celaBBDD {
     background-color: lightslategray;
     color: black;
 }
-
 .celaEIE {
     background-color: lightgreen;
     color: black;
@@ -47,7 +42,47 @@
     background-color: yellow;
     color: black;
 }
-
 span{
     color: palevioletred;
+}
+
+
+/*PROVA*/
+.bg-crimson{
+    background-color: crimson;
+}
+.bg-green{
+    background-color: green;
+}
+.bg-cfblue{
+    background-color: cornflowerblue;
+} 
+.bg-gold{
+    background-color: gold;
+}
+.bg-purple{
+    background-color: purple;
+}
+
+
+/* COPIA */
+
+.bg-Blue {
+    background-color: rgb(159, 230, 255);
+}
+
+.bg-Blue1 {
+    background-color: rgb(62, 200, 209);
+}
+
+.bg-Blue2 {
+    background-color: rgb(36, 125, 132);
+}
+
+.bg-Blue3 {
+    background-color: rgb(20, 79, 79);
+}
+
+.bg-Blue4 {
+    background-color: rgb(80, 65, 117);
 }

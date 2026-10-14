@@ -1,10 +1,102 @@
-.textCeles {
-    text-align: center;
+* {
+  padding: 0;
+  margin: 0;
+
+  text-decoration: none;
+  list-style: none;
 }
 
+.textCeles {
+  text-align: center;
+}
 body.index {
-    background-image: url("../img/image.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  background-image: url("../img/image.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* PROVA */
+.root {
+  height: 100vh;
+  width: 100vw;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2fr 1fr 10fr;
+}
+.header {
+  grid-column: 1 /-1;
+  grid-row: 1;
+
+  display: flex;
+  align-items: center;
+}
+.nav {
+  grid-column: 1 / -1;
+  grid-row: 2;
+}
+.nav-list {
+  height: 100%;
+
+  display: flex;
+  justify-content: left;
+  gap: 2em;
+  align-items: center;
+}
+.main {
+  grid-column: 1 / -1;
+  grid-row: 3;
+
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  grid-template-rows: 1fr 1fr 10fr 6fr;
+}
+
+.subtitol {
+  grid-column: 1 / -1;
+  grid-row: 1;
+}
+
+.botonera {
+  grid-column: 1 / 2;
+  grid-row: 2;
+}
+
+.card {
+  border: 1px solid black;
+
+  grid-column: 1 / 2;
+  grid-row: 3;
+}
+
+.aside {
+  grid-column: 2;
+  grid-row: 2 / -1;
+}
+
+.readme {
+  grid-column: 1 / 2;
+  grid-row: 4;
+}
+
+.card-img {
+  grid-row: 1;
+  grid-column: 1;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+#jimothy {
+  height: 8em;
+  width: 8em;
+}
+.card-text {
+  border: 1px solid black;
+
+}
+
+.footer {
+  grid-column: 1 /5;
+  grid-row: 4;
 }
