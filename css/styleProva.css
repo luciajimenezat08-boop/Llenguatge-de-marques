@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+
+  text-decoration: none;
+  list-style: none;
+}
+
+/* PROVA2 */
+.grid{
+  height: 100vh;
+  width: 100vw;
+
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr 5fr 1fr;
+}
+.header{
+  grid-column: 2;
+  grid-row: 1;
+
+  background-color: lightblue;
+} 
+
+.main {
+  grid-column: 1;
+  grid-row: 2;
+
+  background-color: rgb(108, 224, 224);
+}
+
+.aside{
+  grid-column: 2;
+  grid-row: 2;
+
+    background-color: rgb(54, 154, 154);
+}
+.footer{
+  grid-column: 1 /-1;
+  grid-row: 3;
+
+    background-color: rgb(17, 99, 99);
+}
+
+/* PROVA 3 */
+
+.grid {
+  height: 100vh;
+  width: 100vw;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 3fr;
+}
+
+.A {
+  grid-column: 1/3;
+  grid-row: 1;
+
+  background-color: lightblue;
+}
+
+.B{
+  grid-column: 4;
+  grid-row: 1;
+
+  background-color: rgb(115, 178, 199);
+}
+
+.C{
+  grid-column: 1;
+  grid-row: 2;
+
+  background-color: rgb(84, 142, 161);
+
+}
+
+.D{
+  grid-column: 2/-1;
+  grid-row: 2/-1;
+
+  background-color: rgb(16, 65, 81);
+}
+
+.sub-grid {
+  height: 100vh;
+  width: 100vw;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
