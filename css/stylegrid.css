@@ -1,0 +1,126 @@
+
+.producto {
+    display: grid;
+    grid-template-columns: 115px 1fr;
+
+    grid-template-areas:
+        "etiquetas etiquetas"
+        "imatge titulo"
+        "imatge clasificacion"
+        "imatge precio"
+        "box abajo";
+
+    gap: 5px;
+    width: 300px;
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+}
+
+/* ETIQUETA */
+.etiquetas {
+    grid-area: etiquetas;
+}
+
+.borde {
+    display: inline-block;
+    border: 1px solid red;
+    border-radius: 20px;
+    padding: 3px 8px;
+    font-size: 11px;
+}
+
+/* IMAGEN */
+.imatge {
+    grid-area: imatge;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.imatge img {
+    width: 100%;
+}
+
+/* TITULO */
+.titulo {
+    grid-area: titulo;
+}
+
+.titulo h3 {
+    font-size: 12px;
+    margin: 0;
+}
+
+/* ESTRELLAS */
+.clasificacion {
+    grid-area: clasificacion;
+    color: red;
+    font-size: 17px;
+}
+
+.gris {
+    color: gray;
+}
+
+.valoracion {
+    color: gray;
+    font-size: 12px;
+}
+
+/* PRECIO */
+.precio {
+    grid-area: precio;
+    font-size: 11px;
+}
+
+.precio p {
+    margin: 5px 0;
+}
+
+.descuento {
+    color: red;
+}
+
+.descuento del {
+    color: gray;
+}
+
+.rojo {
+    color: red;
+    font-size: 23px;
+    margin: 3px 0;
+}
+
+.verde {
+    color: green;
+    font-weight: bold;
+}
+
+.naranja {
+    color: darkorange;
+}
+
+/* COMPARAR */
+.box {
+    grid-area: box;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+/* BOTONES */
+.abajo {
+    grid-area: abajo;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.abajo input {
+    width: 50px;
+    height: 42px;
+    border-radius: 8px;
+    background-color: white;
+    border: 2px solid black;
+    font-size: 20px;
+}
